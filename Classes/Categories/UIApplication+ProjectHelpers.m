@@ -49,12 +49,12 @@
 
 + (BOOL)is4InchDevice
 {
-    return ([self screenHeight] > 480) ? YES : NO;
+    return ([self realScreenHeight] > 480) ? YES : NO;
 }
 
 + (BOOL)is35InchDevice
 {
-    return ([self screenHeight] == 480) ? YES : NO;
+    return ([self realScreenHeight] == 480) ? YES : NO;
 }
 
 @end

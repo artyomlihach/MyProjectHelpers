@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = "ProjectHelpers"
-  s.version               = "0.0.1"
+  s.version               = "0.0.2"
   s.summary               = "Example of creating own pod."
   s.homepage              = "https://github.com/artyomlihach/MyProjectHelpers"
   s.license               = { :type => 'MIT', :file => 'LICENSE' }
